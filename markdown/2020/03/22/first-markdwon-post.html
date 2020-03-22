@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Markdownを使った投稿の例（和訳） | fastpages</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Markdownを使った投稿の例（和訳）" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="fastpagesでmarkdownをの記事を投稿する" />
+<meta property="og:description" content="fastpagesでmarkdownをの記事を投稿する" />
+<link rel="canonical" href="https://geeknees.github.io/fastpages/markdown/2020/03/22/first-markdwon-post.html" />
+<meta property="og:url" content="https://geeknees.github.io/fastpages/markdown/2020/03/22/first-markdwon-post.html" />
+<meta property="og:site_name" content="fastpages" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-03-22T00:00:00-05:00" />
+<script type="application/ld+json">
+{"datePublished":"2020-03-22T00:00:00-05:00","dateModified":"2020-03-22T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://geeknees.github.io/fastpages/markdown/2020/03/22/first-markdwon-post.html"},"description":"fastpagesでmarkdownをの記事を投稿する","@type":"BlogPosting","url":"https://geeknees.github.io/fastpages/markdown/2020/03/22/first-markdwon-post.html","headline":"Markdownを使った投稿の例（和訳）","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/fastpages/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://geeknees.github.io/fastpages/feed.xml" title="fastpages" /><link rel="shortcut icon" type="image/x-icon" href="/fastpages/images/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Markdownを使った投稿の例（和訳） | fastpages</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Markdownを使った投稿の例（和訳）" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="fastpagesでmarkdownをの記事を投稿する" />
+<meta property="og:description" content="fastpagesでmarkdownをの記事を投稿する" />
+<link rel="canonical" href="https://geeknees.github.io/fastpages/markdown/2020/03/22/first-markdwon-post.html" />
+<meta property="og:url" content="https://geeknees.github.io/fastpages/markdown/2020/03/22/first-markdwon-post.html" />
+<meta property="og:site_name" content="fastpages" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-03-22T00:00:00-05:00" />
+<script type="application/ld+json">
+{"datePublished":"2020-03-22T00:00:00-05:00","dateModified":"2020-03-22T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://geeknees.github.io/fastpages/markdown/2020/03/22/first-markdwon-post.html"},"description":"fastpagesでmarkdownをの記事を投稿する","@type":"BlogPosting","url":"https://geeknees.github.io/fastpages/markdown/2020/03/22/first-markdwon-post.html","headline":"Markdownを使った投稿の例（和訳）","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+<link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css"><link type="application/atom+xml" rel="alternate" href="https://geeknees.github.io/fastpages/feed.xml" title="fastpages" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head><body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/fastpages/">fastpages</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/fastpages/about/">About Me</a><a class="page-link" href="/fastpages/search/">Search</a><a class="page-link" href="/fastpages/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Markdownを使った投稿の例（和訳）</h1><p class="page-description">fastpagesでmarkdownをの記事を投稿する</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-03-22T00:00:00-05:00" itemprop="datePublished">
+        Mar 22, 2020
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      1 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/fastpages/categories/#markdown">markdown</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul class="section-nav">
+<li class="toc-entry toc-h1"><a href="#markdown-を使った投稿の例和訳">Markdown を使った投稿の例（和訳）</a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#基本設定">基本設定</a></li>
+<li class="toc-entry toc-h2"><a href="#基本フォーマット">基本フォーマット</a></li>
+<li class="toc-entry toc-h2"><a href="#リスト">リスト</a></li>
+<li class="toc-entry toc-h2"><a href="#ボックス">ボックス</a></li>
+<li class="toc-entry toc-h2"><a href="#画像">画像</a></li>
+<li class="toc-entry toc-h2"><a href="#コード">コード</a></li>
+<li class="toc-entry toc-h2"><a href="#テーブル">テーブル</a></li>
+<li class="toc-entry toc-h2"><a href="#tweetcards">Tweetcards</a></li>
+<li class="toc-entry toc-h2"><a href="#脚注">脚注</a></li>
+</ul>
+</li>
+</ul><h1 id="markdown-を使った投稿の例和訳">
+<a class="anchor" href="#markdown-%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E6%8A%95%E7%A8%BF%E3%81%AE%E4%BE%8B%E5%92%8C%E8%A8%B3" aria-hidden="true"><span class="octicon octicon-link"></span></a>Markdown を使った投稿の例（和訳）</h1>
+
+<h2 id="基本設定">
+<a class="anchor" href="#%E5%9F%BA%E6%9C%AC%E8%A8%AD%E5%AE%9A" aria-hidden="true"><span class="octicon octicon-link"></span></a>基本設定</h2>
+
+<p>Jekyll は下記のフォーマットで投稿する必要があります:</p>
+
+<p><code class="highlighter-rouge">YEAR-MONTH-DAY-filename.md</code></p>
+
+<p><code class="highlighter-rouge">YEAR</code>は 4 桁の数字、<code class="highlighter-rouge">MONTH</code> と <code class="highlighter-rouge">DAY</code> は２桁の数字、 <code class="highlighter-rouge">filename</code> はどのようなフォーマットでも構いません。どのような内容かわかるものを記載してください。 末尾に <code class="highlighter-rouge">.md</code> の拡張子を追加してください。</p>
+
+<p>ファルの最初の行は１つのハッシュ（シャープ）で始める必要があります。その後スペースを一ついれて、タイトルを記載してください。これはレベル１のヘッダーテキストを記載する方法です。ハッシュの数を増やすことで、上記の <code class="highlighter-rouge">## 基本の設定</code> のようにレベル２，３と変えることができます。</p>
+
+<h2 id="基本フォーマット">
+<a class="anchor" href="#%E5%9F%BA%E6%9C%AC%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%83%E3%83%88" aria-hidden="true"><span class="octicon octicon-link"></span></a>基本フォーマット</h2>
+
+<p><em>イタリック</em>, <strong>太字</strong>, <code class="highlighter-rouge">コーテキスト</code>, <a href="https://www.markdownguide.org/cheat-sheet/">リンク</a>を書くことができます。脚注は <sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> のように書きます。水平線は下記のように書きます。:</p>
+
+<hr>
+
+<h2 id="リスト">
+<a class="anchor" href="#%E3%83%AA%E3%82%B9%E3%83%88" aria-hidden="true"><span class="octicon octicon-link"></span></a>リスト</h2>
+
+<p>これはリストです:</p>
+
+<ul>
+  <li>item 1</li>
+  <li>item 2</li>
+</ul>
+
+<p>番号付きリストです:</p>
+
+<ol>
+  <li>item 1</li>
+  <li>item 2</li>
+</ol>
+
+<h2 id="ボックス">
+<a class="anchor" href="#%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9" aria-hidden="true"><span class="octicon octicon-link"></span></a>ボックス</h2>
+
+<blockquote>
+  <p>これは引用です</p>
+</blockquote>
+
+<div class="Toast Toast--warning googoo">
+   <span class="Toast-icon"><svg class="octicon octicon-alert octicon octicon-alert" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>
+   <span class="Toast-content">アラートボックスに記入</span>
+</div>
+
+<p>や</p>
+
+<div class="Toast">
+   <span class="Toast-icon"><svg class="octicon octicon-info octicon octicon-info" viewbox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 01-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 01-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>
+   <span class="Toast-content">インフォボックスに記入</span>
+</div>
+
+<p>もできます。</p>
+
+<h2 id="画像">
+<a class="anchor" href="#%E7%94%BB%E5%83%8F" aria-hidden="true"><span class="octicon octicon-link"></span></a>画像</h2>
+
+<p><img src="/fastpages/images/logo.png" alt="" title="fast.ai's logo"></p>
+
+<h2 id="コード">
+<a class="anchor" href="#%E3%82%B3%E3%83%BC%E3%83%89" aria-hidden="true"><span class="octicon octicon-link"></span></a>コード</h2>
+
+<p>通常通りにコードを書くこともできます。</p>
+
+<p>一般的なフォーマットされていないテキスト:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Do a thing
+do_thing()
+</code></pre></div></div>
+
+<p>Python のコードとその出力:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Prints '2'
+</span><span class="k">print</span><span class="p">(</span><span class="mi">1</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>2
+</code></pre></div></div>
+
+<p>shell コマンドとその出力:</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">echo</span> <span class="s2">"hello world"</span>
+./some_script.sh <span class="nt">--option</span> <span class="s2">"value"</span>
+wget https://example.com/cat_photo1.png
+</code></pre></div></div>
+
+<p>YAML 形式で書かれたテキスト:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">key</span><span class="pi">:</span> <span class="s">value</span>
+<span class="pi">-</span> <span class="na">another_key</span><span class="pi">:</span> <span class="s2">"</span><span class="s">another</span><span class="nv"> </span><span class="s">value"</span>
+</code></pre></div></div>
+
+<h2 id="テーブル">
+<a class="anchor" href="#%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB" aria-hidden="true"><span class="octicon octicon-link"></span></a>テーブル</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Column 1</th>
+      <th>Column 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>A thing</td>
+      <td>Another thing</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="tweetcards">
+<a class="anchor" href="#tweetcards" aria-hidden="true"><span class="octicon octicon-link"></span></a>Tweetcards</h2>
+
+<div class="jekyll-twitter-plugin">
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">Altair 4.0 is released! <a href="https://t.co/PCyrIOTcvv">https://t.co/PCyrIOTcvv</a><br>Try it with:<br><br>  pip install -U altair<br><br>The full list of changes is at <a href="https://t.co/roXmzcsT58">https://t.co/roXmzcsT58</a> ...read on for some highlights. <a href="https://t.co/vWJ0ZveKbZ">pic.twitter.com/vWJ0ZveKbZ</a></p>— Jake VanderPlas (@jakevdp) <a href="https://twitter.com/jakevdp/status/1204765621767901185?ref_src=twsrc%5Etfw">December 11, 2019</a>
+</blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+
+<h2 id="脚注">
+<a class="anchor" href="#%E8%84%9A%E6%B3%A8" aria-hidden="true"><span class="octicon octicon-link"></span></a>脚注</h2>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>これが脚注です。 <a href="#fnref:1" class="reversefootnote">↩</a></p>
+    </li>
+  </ol>
+</div>
+
+  </div><a class="u-url" href="/fastpages/markdown/2020/03/22/first-markdwon-post.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/fastpages/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/fastpages/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/fastpages/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>An easy to use blogging platform with support for Jupyter Notebooks.</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/fastai" title="fastai"><svg class="svg-icon grey"><use xlink:href="/fastpages/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/fastdotai" title="fastdotai"><svg class="svg-icon grey"><use xlink:href="/fastpages/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
