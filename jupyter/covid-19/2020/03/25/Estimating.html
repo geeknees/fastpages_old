@@ -893,7 +893,9 @@ window.onload = wrap_img;
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>We argue that the number of infected in the past can be infered using today's number of deaths and average fatality rate from confirmed cases in the following way:</p>
 <p>
+{{% raw %}}
 $$ I_{t-j} = \frac{D_t}{{CFR}_t}$$
+{{% endraw %}}
 </p>
 <p>where $I_t$ = number of infected, $D_t$ = number of deaths, and ${CFR}_t $ = case fatality rate = $\frac{D}{C}$. The $j$ depends on the average number of days that covid patients die after having the first symptoms.</p>
 
@@ -905,7 +907,9 @@ $$ I_{t-j} = \frac{D_t}{{CFR}_t}$$
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Then, in order to estimate the current number of infected $I_t$ we need to estimate its growth rate from $t-j$ to $t$.</p>
 <p>
+{{% raw %}}
 $$I_t = (1+\hat{g})^j I_{t-j}$$
+{{% endraw %}}
 </p>
 
 </div>
